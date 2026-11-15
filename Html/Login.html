@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="../css/Auth.css">
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <a href="Index.html" class="back-link">← На главную</a>
+
+    <div class="auth-container glass">
+        <div class="auth-visual">
+            <a href="Index.html" class="logo">
+                <img src="../img/logo.png" alt="Логотип Корво Неро">
+                <span>КОРВО НЕРО</span>
+            </a>
+            <h2>С возвращением</h2>
+            <p>Войдите в личный кабинет партнера для управления задачами и контроля баланса.</p>
+        </div>
+
+        <div class="auth-form">
+            <form action="LK/LK.html" method="GET">
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="ivan@company.ru" required>
+                </div>
+                <div class="input-group">
+                    <label>Пароль</label>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn-main">Войти в кабинет</button>
+            </form>
+            <p class="auth-switch">Нет аккаунта? <a href="Register.html">Зарегистрироваться</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

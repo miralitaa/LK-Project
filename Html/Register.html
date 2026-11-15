@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/Auth.css">
+    <script src="../js/Script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <a href="Index.html" class="back-link">← На главную</a>
+
+    <div class="auth-container glass">
+        <div class="auth-visual">
+            <a href="Index.html" class="logo">
+                <img src="../img/logo.png" alt="Логотип Корво Неро">
+                <span>КОРВО НЕРО</span>
+            </a>
+            <h2>Стать партнером</h2>
+            <p>Создайте аккаунт, чтобы получить доступ к системе поддержки 1С и персональному менеджеру.</p>
+        </div>
+
+        <div class="auth-form">
+            <form class="register-form">
+                <div class="input-group">
+                    <label>Имя / Компания</label>
+                    <input type="text" id="regName" placeholder="Иван Иванов" required>
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" id="regEmail" placeholder="ivan@company.ru" required>
+                </div>
+                <div class="input-group">
+                    <label>Пароль</label>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn-main">Создать аккаунт</button>
+            </form>
+            <p class="auth-switch">Уже есть аккаунт? <a href="Login.html">Войти</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
